@@ -1,5 +1,6 @@
 # Quartus project files
 /db/
+/incremental_db/
 /simulation/
 /output_files/
 /assignment_defaults.qdf
