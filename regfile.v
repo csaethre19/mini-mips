@@ -18,7 +18,7 @@ module regfile #(parameter WIDTH = 8, REGBITS = 3)
 	initial begin
 	$display("Loading register file");
 	// you'll need to change the path to this file! 
-	$readmemb("C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/reg.dat", RAM); 
+	$readmemb("C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/assembly_code/reg.dat", RAM); 
 	$display("done with RF load"); 
 	end
 

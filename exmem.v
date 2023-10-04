@@ -32,7 +32,7 @@ module exmem #(parameter DATA_WIDTH=8, parameter ADDR_WIDTH=8)
         // RAM with data on initialization to the FPGA
 	initial begin
 	$display("Loading memory");
-	$readmemb("C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/fib-converted.dat", ram);
+	$readmemb("C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/assembly_code/fib-converted.dat", ram);
 	$display("done loading");
 
 	end
