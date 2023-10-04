@@ -1,0 +1,211 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do mini-mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:37 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 14:40:37 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alucontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:37 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alucontrol.v 
+# -- Compiling module alucontrol
+# 
+# Top level modules:
+# 	alucontrol
+# End time: 14:40:37 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:37 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 14:40:37 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:37 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/zerodetect.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/zerodetect.v 
+# -- Compiling module zerodetect
+# 
+# Top level modules:
+# 	zerodetect
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopr.v 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopenr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopenr.v 
+# -- Compiling module flopenr
+# 
+# Top level modules:
+# 	flopenr
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mipscpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:38 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mipscpu.v 
+# -- Compiling module mipscpu
+# 
+# Top level modules:
+# 	mipscpu
+# End time: 14:40:38 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mipssystem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:39 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mipssystem.v 
+# -- Compiling module mipssystem
+# 
+# Top level modules:
+# 	mipssystem
+# End time: 14:40:39 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/exmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:39 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/exmem.v 
+# -- Compiling module exmem
+# 
+# Top level modules:
+# 	exmem
+# End time: 14:40:39 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:39 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 14:40:39 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/tb_mipscpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:40:39 on Oct 03,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/charl/OneDrive/School/ECE 3710/mini-mips" C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/tb_mipscpu.v 
+# -- Compiling module tb_mipscpu
+# 
+# Top level modules:
+# 	tb_mipscpu
+# End time: 14:40:39 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mipscpu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mipscpu 
+# Start time: 14:40:41 on Oct 03,2023
+# Loading work.tb_mipscpu
+# Loading work.controller
+# Loading work.alu
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# aluop from controller: 00
+# ALU result:   3
+vlog -reportprogress 300 -work work {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/tb_mipscpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:41:20 on Oct 03,2023
+# vlog -reportprogress 300 -work work C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/tb_mipscpu.v 
+# -- Compiling module tb_mipscpu
+# 
+# Top level modules:
+# 	tb_mipscpu
+# End time: 14:41:20 on Oct 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.tb_mipscpu
+restart
+run
+# aluop from controller: 00
+# ALU result:   3
+add wave -position insertpoint  \
+sim:/tb_mipscpu/clk
+add wave -position insertpoint  \
+sim:/tb_mipscpu/op
+add wave -position insertpoint  \
+sim:/tb_mipscpu/alucont
+add wave -position insertpoint  \
+sim:/tb_mipscpu/a
+add wave -position insertpoint  \
+sim:/tb_mipscpu/b
+add wave -position insertpoint  \
+sim:/tb_mipscpu/result
+restart
+run
+restart
+run
+# aluop from controller: 00
+# ALU result:   3
+add wave -position insertpoint  \
+sim:/tb_mipscpu/aluop
+restart
+run
+# aluop from controller: 00
+# ALU result:   3
+# End time: 17:46:26 on Oct 03,2023, Elapsed time: 3:05:45
+# Errors: 0, Warnings: 0

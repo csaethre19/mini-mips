@@ -1,0 +1,18 @@
+
+State Machine - |mipssystem|mipscpu:cpu|controller:cont|state
+Name state.ADDIWR state.JEX state.BEQEX state.RTYPEWR state.RTYPEEX state.SBWR state.LBWR state.LBRD state.MEMADR state.DECODE state.FETCH4 state.FETCH3 state.FETCH2 state.ADDIEX state.FETCH1 
+state.FETCH1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.ADDIEX 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.FETCH2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.FETCH3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.FETCH4 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.DECODE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.MEMADR 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.LBRD 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.LBWR 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.SBWR 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RTYPEEX 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.RTYPEWR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.BEQEX 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JEX 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ADDIWR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

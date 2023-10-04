@@ -1,0 +1,9 @@
+module MIPSsystem()
+
+
+exmem   exm(.data(writedata), .addr(adr), .we(memwrite), .clk(clk), .q(memdata));
+
+mipscpu cpu(.clk(clk), .reset(reset), .memdata(memdata), .memwrite(memwrite), .adr(adr), .writedata(writedata));
+
+
+endmodule

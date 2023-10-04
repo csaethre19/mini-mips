@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/controller.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alucontrol.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/datapath.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/zerodetect.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopr.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/flopenr.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mux4.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/mipscpu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/charl/OneDrive/School/ECE\ 3710/mini-mips {C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/regfile.v}
+

@@ -1,0 +1,68 @@
+// Quartus Prime Verilog Template
+// Single port RAM with single read/write address 
+
+// TODO
+// don't need to do anything with ram for "separating" memory out
+// just need to check that the top two bits are 11 and if we is high we write out to the leds
+// add output for leds
+// add input for switches
+// when we are reading also check for top two bits being 11 and use the switches to read from instead of ram
+
+module exmem #(parameter DATA_WIDTH=8, parameter ADDR_WIDTH=8)
+        (
+	input [(DATA_WIDTH-1):0] data,
+	input [(ADDR_WIDTH-1):0] addr,
+	input                    we, clk,
+	output [(DATA_WIDTH-1):0] q
+        );
+
+	// -- Divide memory (ram) into four regions, all containing 64 memory locations. --
+	
+	// Memory addresses with the top two bits of: 00, 01, 10 -> correspond to "regular memory"
+	// Memory addresses with the top two bits of: 11         -> correspond to "I/O memory"
+	
+	// -- BEHAVIOR FOR I/O MEMORY:
+	// if top two bits of read address is 11 -> get value on switches
+	// if top two bits of write address is 11 -> value written to LEDs
+	
+	//if (addr[ADDR_WIDTH-1:ADDR_WIDTH-2] == 2'b11)
+	//begin
+		// in I/O memory region
+	//end
+	
+	// Declare the RAM variable
+	reg [DATA_WIDTH-1:0] ram[2**ADDR_WIDTH-1:0];
+
+	// Variable to hold the read address
+	reg [ADDR_WIDTH-1:0] addr_reg;
+
+        // The $readmemb function allows you to load the
+        // RAM with data on initialization to the FPGA
+        // you'll need to update the path to this file
+        // for your own location. 
+	initial begin
+	$display("Loading memory");
+	// C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/
+	$readmemb("C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/fib-b.dat", ram);
+	$display("done loading");
+
+	end
+
+	always @ (posedge clk)
+	begin
+		// Write
+		// if we and top two bits 11 ... output to leds and not ram
+		if (we) begin
+			ram[addr] <= data;
+		end
+                // register to hold the read address
+		addr_reg <= addr;
+	end
+
+	// Continuous assignment implies read returns NEW data.
+	// This is the natural behavior of the TriMatrix memory
+	// blocks in Single Port mode.  
+	assign q = ram[addr_reg];
+
+endmodule // exmem
+

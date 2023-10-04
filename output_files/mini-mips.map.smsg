@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at exmem.v(39): always construct contains both blocking and non-blocking assignments File: C:/Users/charl/OneDrive/School/ECE 3710/mini-mips/exmem.v Line: 39
