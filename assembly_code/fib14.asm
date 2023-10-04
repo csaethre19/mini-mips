@@ -20,19 +20,18 @@
 # Register usage: $3=n, $4=f1, $5=f2
 # return value written to address 255
 
-fibn:	
-	addi $3, $0, 14		# initialize n = 14
+	
+fibn:	addi $3, $0, 14	        # initialize n = 14
 	addi $4, $0, 1		# initialize f1 = 1
 	addi $5, $0, -1		# initialize f2 = -1
+	
 loop_setup:	
 	beq $3, $0, loop_io	# Done with loop if n = 0, when done go to continuous I/O loop
 	add $4, $4, $5		# f1 = f1 + f2
 	sub $5, $4, $5		# f2 = f1 - f2
 	sb $4, 128($3)		# store result at 128 + n
 	addi $3, $3, -1		# n = n - 1
-	j loop_setup			# repeat until done
-
-# end:	sb $4, 255($0)		# store result in address 255
+	j loop_setup		# repeat until done
 
 loop_io:
 #   1. read memory at I/O space (switches)

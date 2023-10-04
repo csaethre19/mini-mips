@@ -1,0 +1,32 @@
+# Quartus project files
+/db/
+/simulation/
+/output_files/
+/assignment_defaults.qdf
+/*.rpt
+/*.sopcinfo
+/*.qws
+/*.dsn
+/*.bak
+/*.qdf
+/*.sld
+/*.csv
+/*.sdo
+/*.summary
+/*.htm
+/dbincrement.db
+/c5_pin_model_dump.txt
+/*.htm
+/qdb/
+/vsim.wlf
+/transcript
+/wave
+/*.sof
+/*.pof
+/*.jdi
+
+# Exclude any build artifacts
+output_files/
+simulation/
+increment.txt
+*.bak
