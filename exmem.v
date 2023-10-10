@@ -43,7 +43,6 @@ module exmem #(parameter DATA_WIDTH=8, parameter ADDR_WIDTH=8)
 		if (we) begin
 			if (IO) begin
 				LEDs <= data;
-				//leds_temp <= data;
 			end
 			else begin
 				ram[addr] <= data;
